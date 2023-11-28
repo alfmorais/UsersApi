@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "usersapi"
+version = "0.1.0"
+description = ""
+authors = ["Alfredo de Morais"]
+license = "MIT LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+flask-pymongo = "^2.3.0"
+
+
+[tool.poetry.group.test.dependencies]
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
